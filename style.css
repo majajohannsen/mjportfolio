@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
-    font-family: Arial, san-serif;
+    font-family: Abril fatface;
     }
     body {
     background-color:#92BFB1;
@@ -27,5 +27,11 @@
     .logogif {
     width: 12%;
     margin: auto;
+    }
+
+    /* Hero picture sektion */
+
+    .bigpic {
+width: 100%;
     }
     
