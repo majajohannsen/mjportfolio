@@ -11,6 +11,13 @@
     background-color:#92BFB1;
     }
 
+    h1 {
+        font-family: futura;
+        font-weight: lighter;
+        padding: 3% 3%;
+        font-size: 3vw;
+    }
+
     nav{
     padding: 2% 0;
     }
@@ -45,11 +52,6 @@ width: 100%;
       }
 
     /* my work */ 
-
-    .overskrift1 {
-
-        
-    }
     .parallax__flex {
         display: flex;
       }
