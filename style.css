@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial, san-serif;
+    }
+    body {
+    background-color:#92BFB1;
+    }
+    nav{
+    padding: 2% 0;
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+    a{
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% 3%;
+    font-size: 1.5vw;
+    text-decoration: none;
+    }
+    .logogif {
+    width: 12%;
+    margin: auto;
+    }
+    
