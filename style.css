@@ -68,43 +68,43 @@ width: 70%;
 
     /* my work */ 
 
-  .parallax__flex {
+  .flex {
     display: flex;
   }
-  .parallax__video {
+  .video {
     width: 60%;
     overflow: hidden;
     
   }
 
-  .parallax__image img {
+  .image img {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
     height: 100%;
     display: block;
   }
-  .parallax__body {
+  .body {
     width: 40%;
     padding: 60px;
     background:#92BFB1;
   }
-  .parallax__title {
+  .title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
   }
-  .parallax__text {
+  .text {
     font-size: 18px;
   }
   @media (max-width: 991.98px) {
-    .parallax__flex {
+    .flex {
       flex-direction: column;
     }
-    .parallax__image {
+    .image {
       width: 100%;
     }
-    .parallax__body {
+    .body {
       width: 100%;
     }
   }
