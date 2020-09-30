@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: #fff;
     font-family: futura;
+  scroll-behavior: smooth;
     }
 
 
@@ -15,7 +16,7 @@
         font-family: futura;
         font-weight: lighter;
         padding: 3% 3%;
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     header {
@@ -111,5 +112,36 @@ padding: auto;
   /* skill */ 
 
   
- 
+ /* contact */
+
+ #contact {
+   background-color: #66857b;
+   width: 100%;
+   padding-bottom: 15%;
+
+ }
+ #mail{
+   width: 9%;
+   margin-top: 5%;
+ }
+
+ #phone{
+  width: 5%;
+  margin-top: 5%;
+ }
   
+ #linkedin {
+  width: 6%;
+  margin-top: 5%;
+ }
+ #facebook {
+  width: 7%;
+  margin-top: 5%;
+ }
+ 
+ #insta {
+  width: 6%;
+  margin-top: 5%;
+  transform: scale(1.2);
+ }
+
