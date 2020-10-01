@@ -147,11 +147,82 @@ margin: auto;
     font-size: 2.8vw;
     margin-bottom: 7%;
     margin-top: 4%;
-    font-weight: lighter;
     font-family: 'Raleway', sans-serif;
     color:#57726a
 
   }
+/* about */ 
+
+.slideshow-container img {
+width: 45%;
+padding: 0% 5%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  font-family: futura;
+  font-style: italic;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #fff;
+  font-size: 1.4vw;
+  padding: 1% 6%;
+  position: absolute;
+  top: 0;
+}
+.kreativ {
+  font-size: 1.5vw;
+ padding: 1% 12%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active {
+  background-color:#b2b2b2;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
 
   /* skill */ 
 
@@ -159,41 +230,64 @@ margin: auto;
  /* contact */
 
  #contact {
-   display: flex;
    background-color: #57726a;
    width: 100%;
-   padding-bottom: 15%;
-
-
+   margin: auto;
  }
+
+
+footer {
+display: flex;
+align-items: center;
+}
+
  #mail{
    width: 8%;
    margin-top: 5%;
 
  }
 
+
  #phone{
   width: 5%;
   margin-top: 5%;
-  display: flex;
+
  }
   
  #linkedin {
   width: 6%;
   margin-top: 5%;
-  display: flex;
+
 
  }
  #facebook {
   width: 7%;
   margin-top: 5%;
-  display: flex;
+
  }
 
  
  #insta {
   width: 6%;
   margin-top: 5%;
-  display: flex;
+
  }
 
+ @media all and (max-width: 599px) {
+
+      /* slideshow */
+
+    /*Dette påvirker dropdown i mobilversionen, da hover ikke virker med fingeren, så nu er det hele foldet ud, border er fjernet og skriften er mindre.*/
+    #main-nav .dropdown-content a {
+      font-size: 0.9em;
+      border: none;
+  }
+
+  .slideshow-container {
+
+      padding: 5%;
+  }
+  .numbertext {
+    padding: 6% 1%;
+  }
+}
