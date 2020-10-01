@@ -67,7 +67,7 @@ margin: auto;
   position: relative;
 }
     .container {
-  position:absolute ;
+  position:relative ;
       justify-content: center;
       align-items: center;
     }
@@ -79,11 +79,14 @@ margin: auto;
       text-align: center;
       overflow: hidden;
       font-family: futura;
+      position:absolute ; 
+      top: 10%;
+      left: 5%;
 
     }
     .container p span.typed-text {
       font-weight: normal;
-      color: #fff;
+      color:#66857b;
     }
     .container p span.cursor {
       display: inline-block;
