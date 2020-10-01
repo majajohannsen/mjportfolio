@@ -62,8 +62,12 @@ margin: auto;
 
    
 /* typewriter */
+#heropicture img {
+  width: 100%;
+  position: relative;
+}
     .container {
-  position: absolute;
+  position:absolute ;
       justify-content: center;
       align-items: center;
     }
