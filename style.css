@@ -54,26 +54,56 @@ margin: auto;
     text-decoration: none;
     margin-left: 15%;
     }
-  
-
     .logogif {
     width: 12%;
-    
+    }
+     /* Hero picture sektion */
+        /* heropic */
+
+   
+/* typewriter */
+    .container {
+  position: absolute;
+      justify-content: center;
+      align-items: center;
+    }
+    .container p {
+      font-size: 2vw;
+      padding: 0.5rem;
+      font-weight: lighter;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      overflow: hidden;
+      font-family: futura;
+
+    }
+    .container p span.typed-text {
+      font-weight: normal;
+      color: #fff;
+    }
+    .container p span.cursor {
+      display: inline-block;
+      background-color: #ccc;
+      margin-left: 0.1rem;
+      width: 3px;
+      animation: blink 1s infinite;
+    }
+    .container p span.cursor.typing {
+      animation: none;
+    }
+    @keyframes blink {
+      0%  { background-color: #ccc; }
+      49% { background-color: #ccc; }
+      50% { background-color: transparent; }
+      99% { background-color: transparent; }
+      100%  { background-color: #ccc; }
     }
 
-    /* Hero picture sektion */
 
-    .bigpic {
-width: 70%;
-margin: auto;
-padding: auto;
-    }
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+
+/*pil ned */ 
+
+/* pil op */ 
 
     /* my work */ 
 
@@ -102,19 +132,20 @@ padding: auto;
   }
   .text {
     font-size: 1.7vw;
-    line-height: 2.5vw;
+    line-height: 3vw;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
+  margin-bottom: 7%;
   }
 
   .ikon  {
     width: 20%;
-  margin-right: 4%;
+    margin-right: 4%;
 }
 
   .overskrift1 {
     font-size: 2.8vw;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-top: 4%;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
@@ -128,6 +159,7 @@ padding: auto;
  /* contact */
 
  #contact {
+   display: flex;
    background-color: #57726a;
    width: 100%;
    padding-bottom: 15%;
@@ -137,8 +169,6 @@ padding: auto;
  #mail{
    width: 8%;
    margin-top: 5%;
-   display: flex;
-   flex-direction: column;
 
  }
 
