@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
-    font-family: futura;
   scroll-behavior: smooth;
     }
 
@@ -50,7 +49,8 @@ margin: auto;
     list-style-type: none;
     align-items: center;
     margin: 1% 3%;
-    font-size: 2.2vw;
+    font-size: 2.3vw;
+    font-family: futura;
     text-decoration: none;
     margin-left: 15%;
     }
@@ -91,14 +91,20 @@ padding: auto;
     width: 100%;
     background:#92BFB1;
     padding: 5%;
+  
   }
   .title {
     font-size: 4vw;
     margin-bottom: 5%;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    color:#57726a
   }
   .text {
     font-size: 1.7vw;
     line-height: 2.5vw;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
   }
 
   .ikon  {
@@ -110,6 +116,10 @@ padding: auto;
     font-size: 2.8vw;
     margin-bottom: 5%;
     margin-top: 4%;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    color:#57726a
+
   }
 
   /* skill */ 
@@ -118,33 +128,42 @@ padding: auto;
  /* contact */
 
  #contact {
-   background-color: #66857b;
+   background-color: #57726a;
    width: 100%;
    padding-bottom: 15%;
 
+
  }
  #mail{
-   width: 9%;
+   width: 8%;
    margin-top: 5%;
+   display: flex;
+   flex-direction: column;
+
  }
 
  #phone{
   width: 5%;
   margin-top: 5%;
+  display: flex;
  }
   
  #linkedin {
   width: 6%;
   margin-top: 5%;
+  display: flex;
+
  }
  #facebook {
   width: 7%;
   margin-top: 5%;
+  display: flex;
  }
+
  
  #insta {
   width: 6%;
   margin-top: 5%;
-  transform: scale(1.2);
+  display: flex;
  }
 
