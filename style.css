@@ -8,7 +8,7 @@
 
 
     body {
-    background-color:#92BFB1;
+    background-color:#a37474;
     }
 
     h1 {
@@ -117,16 +117,15 @@ margin: auto;
 .flex {
   display: flex;
 }
-  video {
-    width: 80%;
+  .gifs {
+    width: 100%;
     margin: auto;
-    padding: 5%;
     overflow: hidden;
   }
 
   .body {
     width: 100%;
-    background:#92BFB1;
+    background:#a37474;
     padding: 5%;
   
   }
@@ -135,7 +134,7 @@ margin: auto;
     margin-bottom: 5%;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
-    color:#57726a
+    color:fff;
   }
   .text {
     font-size: 1.7vw;
@@ -155,7 +154,7 @@ margin: auto;
     margin-bottom: 7%;
     margin-top: 4%;
     font-family: 'Raleway', sans-serif;
-    color:#57726a
+    color:fff;
 
   }
 /* about */ 
@@ -295,6 +294,6 @@ align-items: center;
       padding: 5%;
   }
   .numbertext {
-    padding: 6% 1%;
+    padding: 6% 6%;
   }
 }
