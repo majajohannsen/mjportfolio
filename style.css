@@ -167,10 +167,11 @@ padding: 0% 5%;
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
+  position: absolute;
   font-family: futura;
   font-style: italic;
   margin: auto;
+  z-index: 100;
 }
 
 /* Number text (1/3 etc) */
@@ -230,17 +231,26 @@ padding: 0% 5%;
 }
 
 /* flex-box med tekst/bulletpoints om mig */
-#about {
-  position: relative;
-} 
 
-.flex-boks{
-   position: absolute;
-   background-color: chartreuse;
-   
-  
+.flexboxen{
+
+  position: relative;
+  background-color: red;
+  margin: auto;
+ padding-left: 45vw;
+width: 100%;
+ 
  }
 
+ .flex-boks1 {
+
+
+ }
+
+ .slideshow-container {
+
+
+ }
 
   /* skill */ 
 
