@@ -52,7 +52,7 @@ margin: auto;
     font-size: 2.3vw;
     font-family: futura;
     text-decoration: none;
-    margin-left: 15%;
+    margin-left: 14%;
     }
     .logogif {
     width: 12%;
@@ -86,7 +86,7 @@ margin: auto;
     }
     .container p span.typed-text {
       font-weight: normal;
-      color:#66857b;
+      color:#a37474;
     }
     .container p span.cursor {
       display: inline-block;
@@ -229,6 +229,18 @@ padding: 0% 5%;
   }
 }
 
+/* flex-box med tekst/bulletpoints om mig */
+#about {
+  position: relative;
+} 
+
+.flex-boks{
+   position: absolute;
+   background-color: chartreuse;
+   
+  
+ }
+
 
   /* skill */ 
 
@@ -236,7 +248,7 @@ padding: 0% 5%;
  /* contact */
 
  #contact {
-   background-color: #57726a;
+   background-color: #C6A9A9;
    width: 100%;
    margin: auto;
  }
