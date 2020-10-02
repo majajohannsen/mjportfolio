@@ -1,9 +1,11 @@
+// overgang //
+
 // typewriter //
 
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Maja Johannsen", "Grafisk designer", "Frontend developer", "Content Assistent"];
+const textArray = ["Grafisk designer", "Frontend developer", "Content Assistent"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
