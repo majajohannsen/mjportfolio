@@ -78,12 +78,10 @@ margin: auto;
     }
     .container .mitnavn {
       position: absolute;
-      top: 40%;
+      top: 26%;
       left: 60%;
-      color: #a37474;
+      color: #875a5a; 
       font-size: 4vw;
-
-
     }
 
     .container p {
@@ -93,10 +91,10 @@ margin: auto;
       letter-spacing: 0.1rem;
       text-align: center;
       overflow: hidden;
-      color: #7A5252;
-      font-family: futura;
+      color: #a37474;
+      font-family: 'Raleway', sans-serif;
       position:absolute ; 
-      top: 60%;
+      top: 40%;
       left: 65%;
 
     }
@@ -276,7 +274,6 @@ font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
     
   }
-
   .heading1 {
    font-size: 4vw;
    margin-left: 3%;
