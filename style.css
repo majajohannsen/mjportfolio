@@ -79,9 +79,9 @@ margin: auto;
     .container .mitnavn {
       position: absolute;
       top: 26%;
-      left: 60%;
+      left: 55%;
       color: #875a5a; 
-      font-size: 4vw;
+      font-size: 4.6vw;
     }
 
     .container p {
@@ -95,11 +95,11 @@ margin: auto;
       font-family: 'Raleway', sans-serif;
       position:absolute ; 
       top: 40%;
-      left: 65%;
+      left: 62%;
 
     }
     .container p span.typed-text {
-      font-weight: normal;
+      font-weight: bold;
       color:#a37474;
     }
     .container p span.cursor {
@@ -130,17 +130,20 @@ margin: auto;
 
 .flex {
   display: flex;
+  padding: 3%;
+  margin: 2%%;
 }
   .gifs {
     width: 100%;
     margin: auto;
     overflow: hidden;
+   
   }
 
   .body {
     width: 100%;
-    background:#a37474;
-    padding: 5%;
+    background:#c6a9a9;
+    padding: 2%;
   
   }
   .title {
@@ -154,6 +157,7 @@ margin: auto;
     font-size: 1.7vw;
     line-height: 3vw;
     font-weight: lighter;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
   margin-bottom: 7%;
   }
