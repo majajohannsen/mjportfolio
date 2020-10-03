@@ -17,7 +17,6 @@
         padding: 3% 3%;
         font-size: 5vw;
         text-align: center;
-
     }
 
     header {
@@ -25,6 +24,10 @@ display: flex;
 justify-content: space-between;
 margin: auto;
 
+    }
+
+    .overskrifterne {
+      color: #c6a9a9;
     }
 /* navigation */ 
 
@@ -34,6 +37,7 @@ margin: auto;
     }
     nav a :hover{
       transform: scale(1.2);
+      color: #7A5252;
       }
 
     ul{
@@ -80,7 +84,7 @@ margin: auto;
       position: absolute;
       top: 26%;
       left: 55%;
-      color: #a37474; 
+      color: #c6a9a9; 
       font-size: 4.6vw;
     }
 
@@ -307,6 +311,9 @@ position: absolute;
 
 
  /* contact */
+.overskrift {
+  color: #fff;
+}
 
  #contact {
    background-color: #C6A9A9;
