@@ -17,7 +17,7 @@
         padding: 3% 3%;
         font-size: 5vw;
         text-align: center;
-        
+
     }
 
     header {
@@ -80,7 +80,7 @@ margin: auto;
       position: absolute;
       top: 26%;
       left: 55%;
-      color: #875a5a; 
+      color: #a37474; 
       font-size: 4.6vw;
     }
 
@@ -131,7 +131,7 @@ margin: auto;
 .flex {
   display: flex;
   padding: 3%;
-  margin: 2%%;
+  margin: 2%;
 }
   .gifs {
     width: 100%;
