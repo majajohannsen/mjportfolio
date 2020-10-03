@@ -260,15 +260,45 @@ font-size: 1.5vw;
   /* skill */ 
   .flex-container {
     display: flex;
+    flex-direction: row;
+    position: relative;
     width: 100%;
   }
+  .flex-container > div {
+    background-color: #C6A9A9;
+    padding: 5%;
+    margin: 5%;
+  }
+  ul.a {
+    list-style-type: circle;
+    font-size: 2.5vw;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    
+  }
 
-.flex-container > div {
-  background-color: blue;
-  padding: 4%;
-  margin: 4%;
-  font-size: 35vw;
-}
+  .heading1 {
+   font-size: 4vw;
+   margin-left: 3%;
+   padding-top: 2%;
+position: absolute;
+  }
+
+  .heading2 {
+    font-size: 4vw;
+    padding-top: 2%;
+    margin-left: 35%;
+ position: absolute;
+   }
+
+   .heading3 {
+    font-size: 4vw;
+    padding-top: 2%;
+    margin-left: 67%;
+ position: absolute;
+   }
+ 
+
 
  /* contact */
 
@@ -305,12 +335,9 @@ align-items: center;
   margin-top: 5%;
 
  }
-
- 
  #insta {
   width: 6%;
   margin-top: 5%;
-
  }
 
  @media all and (max-width: 599px) {
