@@ -134,11 +134,11 @@ margin: auto;
 
 .flex {
   display: flex;
-  padding: 3%;
+  padding: 2%;
   margin: 2%;
 }
   .gifs {
-    width: 100%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
    
@@ -147,7 +147,7 @@ margin: auto;
   .body {
     width: 100%;
     background:#c6a9a9;
-    padding: 2%;
+    padding: 5%;
   
   }
   .title {
