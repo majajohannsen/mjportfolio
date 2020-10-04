@@ -180,6 +180,36 @@ margin: auto;
 
   }
 /* about */ 
+.flexboks {
+
+  position: relative;
+  padding-bottom: 10%;
+margin: 5%;
+  background-color: #c6a9a9;
+}
+
+.body1{
+ position: absolute;
+ padding-left: 38% ;
+ padding-top: 5%;
+ 
+}
+
+ul.c {
+
+  list-style-type: circle;
+  font-size: 2.5vw;
+color: #fff;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+  font-weight: lighter;
+  font-size: 4vw;
+}
 
 .slideshow-container img {
 width: 30%;
@@ -286,7 +316,7 @@ font-size: 1.5vw;
   }
   .heading1 {
     font-size: 4vw;
-    padding-top: 4.5%;
+    padding-top: 5%;
     color: #fff;
   margin-left: 3%;
 position: absolute;
@@ -294,7 +324,7 @@ position: absolute;
 
   .heading2 {
     font-size: 4vw;
-    padding-top: 4.5%;
+    padding-top: 5%;
     color: #fff;
     margin-left: 35%;
  position: absolute;
@@ -302,9 +332,9 @@ position: absolute;
 
    .heading3 {
     font-size: 4vw;
-    padding-top: 4.5%;
+    padding-top: 5%;
     color: #fff;
-    margin-left: 66%;
+    margin-left: 67%;
  position: absolute;
    }
  
