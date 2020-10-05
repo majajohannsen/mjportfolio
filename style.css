@@ -183,7 +183,7 @@ margin: auto;
 .flexboks {
 
   position: relative;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 margin: 5%;
   background-color: #c6a9a9;
 }
@@ -219,6 +219,21 @@ padding-left: 5%;
 padding-top: 3%;
 }
 
+
+#cv {
+  width: 20%;
+  margin: 3%;
+}
+
+.mitcv {
+transition: transform .2s;
+}
+
+.mitcv a :hover {
+  transform: scale(1.2);
+
+}
+
 /* Slideshow container */
 
 .slideshow-container {
@@ -242,7 +257,8 @@ margin-bottom: 4vw;
 /* The /bullets/indicators */
 .dots {
   position: absolute;
-  padding-left: 12%;
+  padding-left: 17%;
+
 }
 
 .dot {
@@ -325,9 +341,9 @@ margin-bottom: 4vw;
     position: relative;
     width: 24%;
   }
+  
 
   .designikon {
-
       width: 90%;
       position: absolute;
       opacity: 38%;
@@ -340,12 +356,13 @@ margin-bottom: 4vw;
     width: 23%;
   }
   
-    .strategiikon {
+  .strategiikon {
       width: 90%;
       position: absolute;
       opacity: 38%;
       z-index: -50;
-      padding-left: 5%;
+      margin: -30% 3%;
+
     }
 
   .heading1 {
@@ -449,7 +466,7 @@ align-items: center;
   }
 
   .dots {
-    padding-left: 10%;
+    padding-left: 13%;
   }
   .dot {
     height: 10px;
