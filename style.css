@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
   scroll-behavior: smooth;
     }
 
 
     body {
     background-color:#fff;
+    
     }
 
     h1 {
@@ -200,7 +200,7 @@ ul.c {
   list-style-type: circle;
   font-size: 2.5vw;
 color: #fff;
-padding-left: 8%;
+padding-left: 6%;
   flex-direction: column;
   font-weight: lighter;
   font-family: 'Raleway', sans-serif;
@@ -233,6 +233,9 @@ transition: transform .2s;
   transform: scale(1.2);
 }
 
+.mitcv p {
+  color:#7A5252;
+}
 
 /* Slideshow container */
 
@@ -312,9 +315,10 @@ margin-bottom: 4vw;
     width: 100%;
   }
   .flex-container > div {
+    width: 100%;
     background-color: #C6A9A9;
     padding: 5%;
-    margin: 5%;
+    margin: 2%;
     z-index: -100;
     
   }
@@ -322,6 +326,7 @@ margin-bottom: 4vw;
     list-style-type: circle;
     font-size: 2.5vw;
  color: #fff;
+ line-height: 4vw;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
   }
@@ -391,6 +396,9 @@ position: absolute;
  
 
  /* contact */
+.contaktikoner{
+
+}
 .overskrift {
   color: #fff;
   padding-bottom: 8%;
@@ -398,52 +406,43 @@ position: absolute;
 
  #contact {
    background-color: #C6A9A9;
-   margin: auto;
    padding-bottom: 8%;
  }
 
 footer {
-position: relative;
-align-items: center;
-
-}
-
-.contaktikoner {
   width: 100%;
-
-  
+  padding: 8px 0px;
+position: relative;
 }
+
 
  #mail{
    position: absolute;
    width: 8%;
 
-
-
  }
  #phone{
   position: absolute;
   width: 5%;
-  padding-bottom: 5%;
-
-
  }
   
  #linkedin {
   position: absolute;
-  width: 6%;
+  width:5.5%;
+  margin-left: 15%;
 
 
  }
  #facebook {
   position: absolute;
-  width: 7%;
- margin: auto;
+  width: 6%;
+ margin-left: 10%;
 
  }
  #insta {
   position: absolute;
   width: 6%;
+  margin-left: 5%;
 
  }
 
