@@ -200,14 +200,16 @@ ul.c {
   list-style-type: circle;
   font-size: 2.5vw;
 color: #fff;
+padding-left: 8%;
   flex-direction: column;
+  font-weight: lighter;
   font-family: 'Raleway', sans-serif;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: futura;
   color:#fff;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 4vw;
 }
 
@@ -220,13 +222,11 @@ padding-top: 3%;
 /* Slideshow container */
 
 .slideshow-container {
-position: relative;
+  position: relative;
   font-family: futura;
-  font-style: italic;
   margin-left: auto;
   margin-right: auto;
 margin-bottom: 4vw;
-
 }
 
 
@@ -237,10 +237,6 @@ margin-bottom: 4vw;
   padding: 4% 6%;
   position: absolute;
   top: 0;
-}
-.kreativ {
-font-size: 1.5vw;
- padding: 1% 12%;
 }
 
 /* The /bullets/indicators */
@@ -293,18 +289,17 @@ font-size: 1.5vw;
 
 /* flex-box med tekst/bulletpoints om mig */
 
-
   /* services */ 
   .flex-container {
     display: flex;
     flex-direction: row;
-    position: relative;
     width: 100%;
   }
   .flex-container > div {
     background-color: #C6A9A9;
     padding: 5%;
     margin: 5%;
+    z-index: -100;
     
   }
   ul.a {
@@ -313,8 +308,46 @@ font-size: 1.5vw;
  color: #fff;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
-    
   }
+.kode {
+  position: relative;
+    width: 23%;
+  }
+  .codeikon {
+    width: 70%;
+      position: absolute;
+      opacity: 28%;
+      z-index: -50;
+      padding-left: 2%;
+    }
+
+  .design {
+    position: relative;
+    width: 23%;
+  }
+
+  .designikon {
+
+      width: 90%;
+      position: absolute;
+      opacity: 38%;
+      z-index: -50;
+      padding-left: 5%;
+    }
+    
+  .strategi {
+    position: relative;
+    width: 23%;
+  }
+  
+    .strategiikon {
+      width: 90%;
+      position: absolute;
+      opacity: 38%;
+      z-index: -50;
+      padding-left: 5%;
+    }
+
   .heading1 {
     font-size: 4vw;
     padding-top: 5%;
@@ -327,7 +360,7 @@ position: absolute;
     font-size: 4vw;
     padding-top: 5%;
     color: #fff;
-    margin-left: 35%;
+    margin-left: 36%;
  position: absolute;
    }
 
@@ -335,7 +368,7 @@ position: absolute;
     font-size: 4vw;
     padding-top: 5%;
     color: #fff;
-    margin-left: 67%;
+    margin-left:69%;
  position: absolute;
    }
  
@@ -412,7 +445,7 @@ align-items: center;
       padding: 5%;
   }
   .numbertext {
-    padding: 6% 6%;
+    padding: 9% 6%;
   }
 
   .dots {
