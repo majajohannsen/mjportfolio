@@ -183,7 +183,7 @@ margin: auto;
 .flexboks {
 
   position: relative;
-  padding-bottom: 15%;
+  padding-bottom: 17%;
 margin: 5%;
   background-color: #c6a9a9;
 }
@@ -410,7 +410,6 @@ position: absolute;
   color: #fff;
   font-family: futura;
   padding-right: 11%;
-  padding-bottom: 3%;
   text-align: right;
   font-size: 2.8vw
   
