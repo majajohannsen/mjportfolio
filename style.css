@@ -395,8 +395,10 @@ position: absolute;
  
 
  /* contact */
+
 .contaktikoner{
   position: relative;
+
 }
 .overskrift {
   color: #fff;
@@ -404,6 +406,15 @@ position: absolute;
   padding-bottom: 7%;
 }
 
+.some {
+  color: #fff;
+  font-family: futura;
+  padding-right: 11%;
+  padding-bottom: 3%;
+  text-align: right;
+  font-size: 2.8vw
+  
+}
  #contact {
    background-color: #C6A9A9;
    padding-bottom: 8%;
@@ -413,10 +424,12 @@ position: absolute;
    position: absolute;
    width: 10%;
 
+
  }
  #phone{
   position: absolute;
   width: 6%;
+
  }
   
  #linkedin {
