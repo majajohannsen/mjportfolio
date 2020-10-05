@@ -347,7 +347,6 @@ margin-bottom: 4vw;
     width: 24%;
   }
   
-
   .designikon {
       width: 90%;
       position: absolute;
@@ -374,7 +373,7 @@ margin-bottom: 4vw;
     font-size: 4vw;
     padding-top: 5%;
     color: #fff;
-  margin-left: 3%;
+  margin-left: 1%;
 position: absolute;
   }
 
@@ -382,7 +381,7 @@ position: absolute;
     font-size: 4vw;
     padding-top: 5%;
     color: #fff;
-    margin-left: 36%;
+    margin-left: 35%;
  position: absolute;
    }
 
@@ -390,7 +389,7 @@ position: absolute;
     font-size: 4vw;
     padding-top: 5%;
     color: #fff;
-    margin-left:70%;
+    margin-left: 68%;
  position: absolute;
    }
  
@@ -401,48 +400,41 @@ position: absolute;
 }
 .overskrift {
   color: #fff;
-  padding-bottom: 8%;
+  font-size: 5vw;
+  padding-bottom: 7%;
 }
 
  #contact {
    background-color: #C6A9A9;
    padding-bottom: 8%;
-
  }
-
-footer {
-  width: 100%;
-  padding: 8px 0px;
-
-}
-
 
  #mail{
    position: absolute;
-   width: 8%;
+   width: 10%;
 
  }
  #phone{
   position: absolute;
-  width: 5%;
+  width: 6%;
  }
   
  #linkedin {
   position: absolute;
-  width:5.5%;
+  width:7.5%;
   margin-left: 15%;
 
 
  }
  #facebook {
   position: absolute;
-  width: 6%;
+  width: 8%;
  margin-left: 10%;
 
  }
  #insta {
   position: absolute;
-  width: 6%;
+  width: 8%;
   margin-left: 5%;
 
  }
