@@ -84,8 +84,8 @@ margin: auto;
       position: absolute;
       top: 26%;
       left: 55%;
-      color: #c6a9a9; 
-      font-size: 4.6vw;
+      color: #a37474; 
+      font-size: 4.8vw;
     }
 
     .container p {
@@ -95,11 +95,11 @@ margin: auto;
       letter-spacing: 0.1rem;
       text-align: center;
       overflow: hidden;
-      color: #a37474;
+      color: #c6a9a9;
       font-family: 'Raleway', sans-serif;
       position:absolute ; 
       top: 40%;
-      left: 62%;
+      left: 55%;
 
     }
     .container p span.typed-text {
@@ -190,8 +190,8 @@ margin: 5%;
 
 .body1{
  position: absolute;
- padding-left: 38% ;
- padding-top: 5%;
+ padding-left: 45% ;
+ padding-top: 5%
  
 }
 
@@ -207,13 +207,14 @@ color: #fff;
 h3 {
   font-family: 'Raleway', sans-serif;
   color:#fff;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 4vw;
 }
 
 .slideshow-container img {
-width: 30%;
+width: 40%;
 padding-left: 5%;
+padding-top: 3%;
 }
 
 /* Slideshow container */
@@ -233,7 +234,7 @@ margin-bottom: 4vw;
 .numbertext {
   color: #fff;
   font-size: 1.4vw;
-  padding: 1% 6%;
+  padding: 4% 6%;
   position: absolute;
   top: 0;
 }
@@ -259,7 +260,7 @@ font-size: 1.5vw;
 }
 
 .active {
-  background-color:#b2b2b2;
+  background-color:#7A5252;
 }
 
 /* Fading animation */
@@ -339,48 +340,61 @@ position: absolute;
    }
  
 
-
  /* contact */
 .overskrift {
   color: #fff;
+  padding-bottom: 8%;
 }
 
  #contact {
    background-color: #C6A9A9;
-   width: 100%;
    margin: auto;
+   padding-bottom: 8%;
  }
 
 footer {
-display: flex;
+position: relative;
 align-items: center;
+
+}
+
+.contaktikoner {
+  width: 100%;
+
+  
 }
 
  #mail{
+   position: absolute;
    width: 8%;
-   margin-top: 5%;
+
+
 
  }
  #phone{
+  position: absolute;
   width: 5%;
-  margin-top: 5%;
+  padding-bottom: 5%;
+
 
  }
   
  #linkedin {
+  position: absolute;
   width: 6%;
-  margin-top: 5%;
 
 
  }
  #facebook {
+  position: absolute;
   width: 7%;
-  margin-top: 5%;
+ margin: auto;
 
  }
  #insta {
+  position: absolute;
   width: 6%;
-  margin-top: 5%;
+
  }
 
  @media all and (max-width: 599px) {
