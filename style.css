@@ -397,7 +397,7 @@ position: absolute;
 
  /* contact */
 .contaktikoner{
-
+  position: relative;
 }
 .overskrift {
   color: #fff;
@@ -407,12 +407,13 @@ position: absolute;
  #contact {
    background-color: #C6A9A9;
    padding-bottom: 8%;
+
  }
 
 footer {
   width: 100%;
   padding: 8px 0px;
-position: relative;
+
 }
 
 
