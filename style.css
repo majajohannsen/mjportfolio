@@ -95,7 +95,7 @@ margin: auto;
       letter-spacing: 0.1rem;
       text-align: center;
       overflow: hidden;
-      color: #c6a9a9;
+      color: #BE9D9D;
       font-family: 'Raleway', sans-serif;
       position:absolute ; 
       top: 40%;
@@ -123,12 +123,6 @@ margin: auto;
       99% { background-color: transparent; }
       100%  { background-color: #ccc; }
     }
-
-
-
-/*pil ned */ 
-
-/* pil op */ 
 
     /* my work */ 
 
@@ -395,61 +389,47 @@ position: absolute;
  
 
  /* contact */
-
-.contaktikoner{
-  position: relative;
-
-}
-.overskrift {
-  color: #fff;
-  font-size: 5vw;
-  padding-bottom: 7%;
-}
-
-.some {
-  color: #fff;
-  font-family: futura;
-  padding-right: 11%;
-  text-align: right;
-  font-size: 2.8vw
-  
-}
+ 
  #contact {
-   background-color: #C6A9A9;
-   padding-bottom: 8%;
- }
-
- #mail{
-   position: absolute;
-   width: 10%;
-
+  background-color: #c6a9a9;
+  color: #fff;
 
  }
- #phone{
-  position: absolute;
-  width: 6%;
-
+ .overskrift {
+   text-align: center;
  }
-  
- #linkedin {
-  position: absolute;
-  width:7.5%;
-  margin-left: 15%;
+ footer {
+ text-align: center;
+ font-family: futura;
+ width: 100%;
+ display: flex;
+font-size: 2.7vw;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-top: 30px;
+ padding: 7px;
+}
 
+.box1{
+display: flex;
+ flex-direction: column;
+}
+.box2{
+  display: flex;
+   flex-direction: column;
+  }
 
+footer img {
+ width: 10%;
+}
+#mail{
+ width: 17%; 
+}
+
+#phone{
+  width: 13%; 
  }
- #facebook {
-  position: absolute;
-  width: 8%;
- margin-left: 10%;
 
- }
- #insta {
-  position: absolute;
-  width: 8%;
-  margin-left: 5%;
-
- }
 
  @media all and (max-width: 599px) {
 
