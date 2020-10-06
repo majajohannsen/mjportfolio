@@ -99,7 +99,7 @@ margin: auto;
       font-family: 'Raleway', sans-serif;
       position:absolute ; 
       top: 40%;
-      left: 55%;
+      left: 58%;
 
     }
     .container p span.typed-text {
@@ -395,21 +395,21 @@ position: absolute;
   left: 0;
   bottom: 0;
   color: #fff;
-  padding-bottom: 9%;
  }
  .overskrift {
    text-align: center;
+   padding: 3%;
  }
  footer {
  text-align: center;
  font-family: futura;
  width: 100%;
  display: flex;
-font-size: 2.7vw;
+font-size: 2.9vw;
  flex-direction: row;
  justify-content: space-around;
- margin-top: 30px;
- padding: 7px;
+margin-top: 1.5%;
+
 }
 
 .box1{
@@ -423,6 +423,7 @@ display: flex;
 
 footer img {
  width: 12%;
+ padding-bottom: 10%;
 }
 #mail{
  width: 23%; 
