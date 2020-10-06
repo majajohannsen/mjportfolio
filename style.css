@@ -36,7 +36,7 @@ margin: auto;
     }
     nav a :hover{
       transform: scale(1.2);
-      color: #7A5252;
+      color: #a37474;
       }
 
     ul{
@@ -59,10 +59,9 @@ margin: auto;
     }
     .logogif {
     width: 12%;
-    padding-left: 1% ;
     }
-     /* Hero picture sektion */
 
+     /* Hero picture sektion */
     
         /* heropic */
         .heropic {
@@ -95,7 +94,7 @@ margin: auto;
       letter-spacing: 0.1rem;
       text-align: center;
       overflow: hidden;
-      color: #BE9D9D;
+      color: #b69191;
       font-family: 'Raleway', sans-serif;
       position:absolute ; 
       top: 40%;
