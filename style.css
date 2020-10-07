@@ -436,7 +436,7 @@ footer img {
   width: 14%; 
  }
 
- @media all and (max-width: 999px) {
+ @media all and (max-width: 960px) {
 
   .body {
     width: 100%;
@@ -487,4 +487,9 @@ footer img {
     padding: 2% 1%;
     overflow: hidden;
   }
+
+  .logogif {
+    width: 5%;
+    }
+
 }
