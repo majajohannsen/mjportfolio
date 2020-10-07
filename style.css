@@ -11,8 +11,8 @@
     }
 
     h1 {
-        font-family: futura;
-        font-weight: lighter;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
         padding: 1% 3%;
         font-size: 5vw;
         text-align: center;
@@ -37,6 +37,7 @@ margin: auto;
     nav a :hover{
       transform: scale(1.2);
       color: #a37474;
+      font-weight: 600;
       }
 
     ul{
@@ -53,7 +54,7 @@ margin: auto;
     align-items: center;
     margin: 1% 3%;
     font-size: 2.3vw;
-    font-family: futura;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     margin-left: 14%;
     }
@@ -81,10 +82,11 @@ margin: auto;
     }
     .container .mitnavn {
       position: absolute;
-      top: 26%;
+      top: 29%;
+      font-family:'Poppins', sans-serif;
       left: 55%;
       color: #a37474; 
-      font-size: 4.8vw;
+      font-size: 4.5vw;
     }
 
     .container p {
@@ -99,6 +101,7 @@ margin: auto;
       position:absolute ; 
       top: 40%;
       left: 58%;
+      line-height: 3vw;
 
     }
     .container p span.typed-text {
@@ -199,7 +202,7 @@ padding-left: 5%;
 }
 
 h3 {
-  font-family: futura;
+  font-family: 'Open Sans', sans-serif;
   color:#fff;
   font-weight: lighter;
   font-size: 4vw;
@@ -400,7 +403,7 @@ position: absolute;
  }
  footer {
  text-align: center;
- font-family: futura;
+ font-family: 'Open Sans', sans-serif;
  width: 100%;
  display: flex;
 font-size: 2.9vw;
