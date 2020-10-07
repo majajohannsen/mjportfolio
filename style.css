@@ -92,7 +92,7 @@ margin: auto;
     .container p {
       font-size: 2vw;
       padding: 0.5rem;
-      font-weight: lighter;
+      font-weight: 400;
       letter-spacing: 0.1rem;
       text-align: center;
       overflow: hidden;
