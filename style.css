@@ -59,7 +59,7 @@ margin: auto;
     margin-left: 14%;
     }
     .logogif {
-    width: 10vw;
+    width: 12%;
     }
 
      /* Hero picture sektion */
@@ -477,13 +477,13 @@ footer img {
   }
 
   .body {
-
+    width: 100%;
     background:#c6a9a9;
     padding: 4%;
     margin: 5%;
   }
   .gifs {
-   
+    width: 90%;
     padding: 2% 1%;
     overflow: hidden;
   }
