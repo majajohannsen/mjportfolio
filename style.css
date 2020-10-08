@@ -88,9 +88,9 @@ margin: auto;
       position: absolute;
       top: 29%;
       font-family:'Poppins', sans-serif;
-      left: 56%;
+      left: 54%;
       color: #a37474; 
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 
     .container p {
@@ -106,7 +106,6 @@ margin: auto;
       top: 40%;
       left: 58%;
       line-height: 1rem;
-
     }
     .container p span.typed-text {
       font-weight: bold;
@@ -147,7 +146,7 @@ margin: auto;
     width: 50%;
     background:#c6a9a9;
     padding: 2%;
-    margin: 5%;
+    margin: 3%;
   }
   .title {
     font-size: 1.5rem;
@@ -189,12 +188,12 @@ margin: 5%;
 ul.c {
 
   list-style-type: circle;
-  font-size: 2.5vw;
+  font-size: 1rem;
 color: #fff;
 padding-left: 5%;
   flex-direction: column;
   font-weight: lighter;
-  line-height: 4.5vw;
+  line-height: 1.2rem;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -202,7 +201,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   color:#fff;
   font-weight: lighter;
-  font-size: 4vw;
+  font-size: 2rem;
 }
 
 .slideshow-container img {
@@ -227,11 +226,11 @@ transition: transform .2s;
 
 .mitcv p {
 font-weight: lighter;
-line-height: 4.5vw;
+line-height: 1rem;
 font-family: 'Raleway', sans-serif;
   color:#7A5252;
   padding-left: 5%;
-  font-size: 2.5vw;
+  font-size: 1rem;
 }
 
 /* Slideshow container */
@@ -241,14 +240,14 @@ font-family: 'Raleway', sans-serif;
   font-family: futura;
   margin-left: auto;
   margin-right: auto;
-margin-bottom: 4vw;
+margin-bottom: 1rem;
 }
 
 
 /* Number text (1/3 etc) */
 .numbertext {
   color: #fff;
-  font-size: 1.4vw;
+  font-size: 0.7rem;
   padding: 4% 6%;
   position: absolute;
   top: 0;
@@ -321,9 +320,9 @@ margin-bottom: 4vw;
   }
   ul.a {
     list-style-type: circle;
-    font-size: 2.5vw;
+    font-size: 0.7rem;
  color: #fff;
- line-height: 4vw;
+ line-height: 1rem;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
   }
@@ -367,7 +366,7 @@ top: 25%
     }
 
   .heading1 {
-    font-size: 4vw;
+    font-size: 1rem;
     padding-top: 2%;
     color: #fff;
   margin-left: 1%;
@@ -375,7 +374,7 @@ position: absolute;
   }
 
   .heading2 {
-    font-size: 4vw;
+    font-size: 1rem;
     padding-top: 2%;
     color: #fff;
     margin-left: 35%;
@@ -383,7 +382,7 @@ position: absolute;
    }
 
    .heading3 {
-    font-size: 4vw;
+    font-size: 1rem;
     padding-top: 2%;
     color: #fff;
     margin-left: 68%;
@@ -408,7 +407,7 @@ position: absolute;
  font-family: 'Open Sans', sans-serif;
  width: 100%;
  display: flex;
-font-size: 2.9vw;
+font-size: 1rem;
  flex-direction: row;
  justify-content: space-around;
 margin-top: 1.5%;
@@ -437,64 +436,222 @@ footer img {
 #phone{
   width: 14%; 
  } 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav a{
+    font-size: 1rem;
+    }
+    
+    .container .mitnavn {
+     
+      font-size: 1.1rem;
+    }
+    .logogif {
+      display: block;
+    }
 
- /*Dette påvirker dropdown i mobilversionen, da hover ikke virker med fingeren, så nu er det hele foldet ud, border er fjernet og skriften er mindre.*/
+    .container p {
+      font-size: 0.7rem;
+    }
+    .text {
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+    .title {
+      font-size:1.2rem
+    }
+    .overskrifterne {
+      font-size: 1.6rem;
+    }
+       /*servies */
+   ul.a {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+   }
+   .heading1
+   {
+    font-size: 0.8rem; 
+   }
+   .heading2
+   {
+    font-size: 0.8rem; 
+   }
+   .heading3
+   {
+    font-size: 0.8rem;  
+   }
+   .overskrift{
+    font-size: 1.6rem;
+    }
 
- @media screen and (min-width: 599px) {
+    .gifs {
+      width: 50%;
+    }
+
+    .body {
+      width:50%;
+    }
+}
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+
+ @media only screen and (min-width: 600px) {
 
   /* slideshow */
 
-#main-nav .dropdown-content a {
-  font-size: 0.9em;
-  border: none;
-}
-.logogif {
-display: block;
+nav a{
+font-size: 1.2rem;
 }
 
-.slideshow-container {
+.container .mitnavn {
+ 
+  font-size: 1.6rem;
+}
+.container p {
+  font-size: 1rem;
+  line-height: 1.4rem;
 
-  padding: 5%;
 }
-.numbertext {
-padding: 9% 6%;
+.text {
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
-
-.dots {
-padding-left: 5%;
-}
-.dot {
-height: 10px;
-width: 10px;
+.title {
+  font-size:1.8rem
 }
 
-.body {
-width: 100%;
-background:#c6a9a9;
-padding: 4%;
-margin: 5%;
-}
-.gifs {
-width: 90%;
-padding: 2% 1%;
-overflow: hidden;
-}
-}
- @media screen and (min-width: 960px) {
-
-  .body {
-    width: 100%;
-    background:#c6a9a9;
-    padding: 5%;
-    margin: 5%;
-  }
-  .gifs {
-    width: 90%;
-    padding: 2% 1%;
-    overflow: hidden;
-  }
   .logogif {
     display: block;
   }
+  .overskrifterne {
+    font-size: 2.2rem;
   }
- 
+   /*servies */
+   ul.a {
+    font-size: 0.8rem;
+    line-height: 1rem;
+   }
+   .heading1
+   {
+    font-size: 1rem; 
+   }
+   .heading2
+   {
+    font-size: 1rem; 
+   }
+   .heading3
+   {
+    font-size: 1rem; 
+   }
+   .overskrift{
+    font-size: 2.2rem;
+    }
+   
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav a{
+    font-size: 1.6rem;
+    }
+    
+    .container .mitnavn {
+     
+      font-size: 2.1rem;
+    }
+    .container p {
+      font-size: 1.3rem;
+      line-height: 1.6rem;
+    }    
+
+  .logogif {
+    display: block;
+  }
+  .text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+  .title {
+    font-size:2rem;
+  }
+  .overskrifterne {
+    font-size: 2.5rem;
+  }
+
+  /*servies */
+  ul.a {
+   font-size: 1rem;
+   line-height: 1.4rem;
+  }
+  .heading1
+  {
+   font-size: 1.6rem; 
+  }
+  .heading2
+  {
+   font-size: 1.6rem; 
+  }
+  .heading3
+  {
+   font-size: 1.6rem; 
+  }
+  .overskrift{
+  font-size: 2.5rem;
+  }
+
+}
+
+/* large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  nav a{
+    font-size: 2.3rem;
+    }
+    
+    .container .mitnavn {
+     
+      font-size: 3.1rem;
+    }
+    .container p {
+      font-size: 2rem;
+      line-height: 2.4rem;
+    
+    }   
+  .logogif {
+    display: block;
+  }
+
+  .text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .title {
+    font-size:3rem
+  }
+
+  .overskrifterne {
+    font-size: 3.3rem;
+  }
+    /*servies */
+    ul.a {
+      font-size: 1.5rem;
+      line-height: 2rem;
+     }
+     .heading1
+     {
+      font-size: 2rem; 
+     }
+     .heading2
+     {
+      font-size: 2rem; 
+     }
+     .heading3
+     {
+      font-size: 2rem; 
+     }
+     .overskrift {
+      font-size: 3.3rem;
+     }
+
+}
