@@ -198,6 +198,7 @@ color: #fff;
 padding-left: 5%;
   flex-direction: column;
   font-weight: lighter;
+  line-height: 4.5vw;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -229,7 +230,12 @@ transition: transform .2s;
 }
 
 .mitcv p {
+font-weight: lighter;
+line-height: 4.5vw;
+font-family: 'Raleway', sans-serif;
   color:#7A5252;
+  padding-left: 5%;
+  font-size: 2.5vw;
 }
 
 /* Slideshow container */
@@ -334,7 +340,8 @@ margin-bottom: 4vw;
       position: absolute;
       opacity: 28%;
       z-index: -50;
-      padding-left: 2%;
+      margin: 3%;
+      top: 29%;
     }
 
   .design {
@@ -347,7 +354,7 @@ margin-bottom: 4vw;
       position: absolute;
       opacity: 38%;
       z-index: -50;
-      padding-left: 5%;
+      margin: 3%;
     }
     
   .strategi {
@@ -359,14 +366,13 @@ margin-bottom: 4vw;
       width: 90%;
       position: absolute;
       opacity: 38%;
-      z-index: -50;
-      margin: -30% 3%;
-
+      margin: 3%;
+top: 25%
     }
 
   .heading1 {
     font-size: 4vw;
-    padding-top: 5%;
+    padding-top: 2%;
     color: #fff;
   margin-left: 1%;
 position: absolute;
@@ -374,7 +380,7 @@ position: absolute;
 
   .heading2 {
     font-size: 4vw;
-    padding-top: 5%;
+    padding-top: 2%;
     color: #fff;
     margin-left: 35%;
  position: absolute;
@@ -382,7 +388,7 @@ position: absolute;
 
    .heading3 {
     font-size: 4vw;
-    padding-top: 5%;
+    padding-top: 2%;
     color: #fff;
     margin-left: 68%;
  position: absolute;
@@ -434,7 +440,7 @@ footer img {
 
 #phone{
   width: 14%; 
- }
+ } 
 
  @media all and (max-width: 960px) {
 
