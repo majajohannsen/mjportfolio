@@ -92,7 +92,226 @@ margin: auto;
       color: #a37474; 
       font-size: 1.1rem;
     }
-
+  } 
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    nav a{
+      font-size: 1rem;
+      }
+      
+      .container .mitnavn {
+       
+        font-size: 1.1rem;
+      }
+      .logogif {
+        display: block;
+      }
+  
+      .container p {
+        font-size: 0.7rem;
+      }
+      .text {
+        font-size: 0.7rem;
+        line-height: 1rem;
+      }
+      .title {
+        font-size:1.2rem
+      }
+      .overskrifterne {
+        font-size: 1.6rem;
+      }
+         /*servies */
+     ul.a {
+      font-size: 0.6rem;
+      line-height: 0.8rem;
+     }
+     .heading1
+     {
+      font-size: 0.8rem; 
+     }
+     .heading2
+     {
+      font-size: 0.8rem; 
+     }
+     .heading3
+     {
+      font-size: 0.8rem;  
+     }
+     .overskrift{
+      font-size: 1.6rem;
+      }
+  
+      .gifs {
+        width: 50%;
+      }
+  
+      .body {
+        width:50%;
+      }
+  }
+  
+  
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+  
+   @media only screen and (min-width: 600px) {
+  
+    /* slideshow */
+  
+  nav a{
+  font-size: 1.2rem;
+  }
+  
+  .container .mitnavn {
+   
+    font-size: 1.6rem;
+  }
+  .container p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  
+  }
+  .text {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .title {
+    font-size:1.8rem
+  }
+  
+    .logogif {
+      display: block;
+    }
+    .overskrifterne {
+      font-size: 2.2rem;
+    }
+     /*servies */
+     ul.a {
+      font-size: 0.8rem;
+      line-height: 1rem;
+     }
+     .heading1
+     {
+      font-size: 1rem; 
+     }
+     .heading2
+     {
+      font-size: 1rem; 
+     }
+     .heading3
+     {
+      font-size: 1rem; 
+     }
+     .overskrift{
+      font-size: 2.2rem;
+      }
+     
+  
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    nav a{
+      font-size: 1.6rem;
+      }
+      
+      .container .mitnavn {
+       
+        font-size: 2.1rem;
+      }
+      .container p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+      }    
+  
+    .logogif {
+      display: block;
+    }
+    .text {
+      font-size: 1.1rem;
+      line-height: 2rem;
+    }
+    .title {
+      font-size:2rem;
+    }
+    .overskrifterne {
+      font-size: 2.5rem;
+    }
+  
+    /*servies */
+    ul.a {
+     font-size: 1rem;
+     line-height: 1.4rem;
+    }
+    .heading1
+    {
+     font-size: 1.6rem; 
+    }
+    .heading2
+    {
+     font-size: 1.6rem; 
+    }
+    .heading3
+    {
+     font-size: 1.6rem; 
+    }
+    .overskrift{
+    font-size: 2.5rem;
+    }
+  
+  }
+  
+  /* large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+    nav a{
+      font-size: 2.3rem;
+      }
+      
+      .container .mitnavn {
+       
+        font-size: 3.1rem;
+      }
+      .container p {
+        font-size: 2rem;
+        line-height: 2.4rem;
+      
+      }   
+    .logogif {
+      display: block;
+    }
+  
+    .text {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+    .title {
+      font-size:3rem
+    }
+  
+    .overskrifterne {
+      font-size: 3.3rem;
+    }
+      /*servies */
+      ul.a {
+        font-size: 1.5rem;
+        line-height: 2rem;
+       }
+       .heading1
+       {
+        font-size: 2rem; 
+       }
+       .heading2
+       {
+        font-size: 2rem; 
+       }
+       .heading3
+       {
+        font-size: 2rem; 
+       }
+       .overskrift {
+        font-size: 3.3rem;
+       }
+  
+  }
     .container p {
       font-size: 0.6rem;
       padding: 0.5rem;
@@ -173,7 +392,7 @@ margin: auto;
 .flexboks {
 
   position: relative;
-  padding-bottom: 17%;
+  padding-bottom: 25%;
 margin: 5%;
   background-color: #c6a9a9;
 }
@@ -214,6 +433,7 @@ padding-top: 3%;
 #cv {
   width: 25%;
   margin: 3%;
+  
 }
 
 .mitcv {
@@ -411,13 +631,11 @@ font-size: 1rem;
  flex-direction: row;
  justify-content: space-around;
 margin-top: 1.5%;
-  transition: transform .2s;
+transition: transform .2s;
   }
-
 
   footer a :hover{
     transform: scale(1.2);
-    color: #7A5252;
   }
 
 .box1{
@@ -435,7 +653,8 @@ footer img {
 
 #phone{
   width: 14%; 
- } 
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   nav a{
@@ -491,6 +710,21 @@ footer img {
     .body {
       width:50%;
     }
+    ul.c {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    .mitcv p {
+      font-size: 0.8rem;
+    }
+    h4 {
+      font-size:1.2rem;
+    }
 }
 
 
@@ -529,7 +763,7 @@ font-size: 1.2rem;
   }
    /*servies */
    ul.a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1rem;
    }
    .heading1
@@ -547,8 +781,22 @@ font-size: 1.2rem;
    .overskrift{
     font-size: 2.2rem;
     }
-   
-
+    ul.c {
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.7rem;
+    }
+  
+    .mitcv p {
+      font-size: 1.1rem;
+    }
+    h4 {
+      font-size:1.6rem;
+    }
+  
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -598,6 +846,21 @@ font-size: 1.2rem;
   }
   .overskrift{
   font-size: 2.5rem;
+  }
+  ul.c {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+  }
+
+  .mitcv p {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size:2rem;
   }
 
 }
@@ -654,4 +917,20 @@ font-size: 1.2rem;
       font-size: 3.3rem;
      }
 
+     ul.c {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    .mitcv p {
+      font-size: 1.8rem;
+    }
+  
+  h4 {
+    font-size:2.2rem;
+  }
 }
