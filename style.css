@@ -54,7 +54,7 @@ margin: auto;
     list-style-type: none;
     color: #c6a9a9;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     padding-left: 1rem;
@@ -63,6 +63,7 @@ margin: auto;
     }
     .logogif {
     width: 12%;
+    display: block;
     }
 
      /* Hero picture sektion */
@@ -448,7 +449,7 @@ footer img {
   border: none;
 }
 .logogif {
-display: none;
+display: block;
 }
 
 .slideshow-container {
