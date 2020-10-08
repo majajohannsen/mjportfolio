@@ -476,8 +476,6 @@ margin-bottom: 1rem;
 /* The /bullets/indicators */
 .dots {
   position: absolute;
-  padding-left: 17%;
-
 }
 
 .dot {
@@ -663,7 +661,7 @@ footer img {
     
     .container .mitnavn {
      
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
     .logogif {
       display: block;
@@ -725,6 +723,15 @@ footer img {
     h4 {
       font-size:1.2rem;
     }
+    .dot {
+      height: 8px;
+      width: 8px;
+    }
+
+    .dots {
+      margin-left: 10%;
+    }
+  
 }
 
 
@@ -796,6 +803,15 @@ font-size: 1.2rem;
     h4 {
       font-size:1.6rem;
     }
+    .dot {
+      height: 10px;
+      width: 10px;
+    }
+
+    .dots {
+      margin-left: 13%;
+    }
+  
   
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -861,6 +877,14 @@ font-size: 1.2rem;
   }
   h4 {
     font-size:2rem;
+  }
+  .dot {
+    height: 14px;
+    width: 14px;
+  }
+
+  .dots {
+    margin-left: 13%;
   }
 
 }
@@ -932,5 +956,13 @@ font-size: 1.2rem;
   
   h4 {
     font-size:2.2rem;
+  }
+  .dot {
+    height: 18px;
+    width: 18px;
+  }
+
+  .dots {
+    margin-left: 15%;
   }
 }
