@@ -442,7 +442,7 @@ footer img {
   width: 14%; 
  } 
 
- @media all and (max-width: 960px) {
+ @media screen and (min-width: 960px) {
 
   .body {
     width: 100%;
@@ -456,7 +456,7 @@ footer img {
     overflow: hidden;
   }
   }
- @media all and (max-width: 599px) {
+ @media screen and (min-width: 599px) {
 
       /* slideshow */
 
