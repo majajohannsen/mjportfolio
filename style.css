@@ -35,7 +35,7 @@ margin: auto;
     padding: 3% 3%;
     transition: transform .2s;
     }
-    nav a :hover{
+    nav a:hover{
       transform: scale(1.2);
       color: #a37474;
       font-weight: 600;
@@ -227,7 +227,7 @@ padding-top: 3%;
   transition: transform .2s;
   }
   
-  .mitcv a :hover {
+  .mitcv img:hover {
     transform: scale(1.2);
   }
 
