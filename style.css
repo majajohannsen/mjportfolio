@@ -527,7 +527,9 @@ footer img {
     .dots {
       margin-left: 10%;
     }
- 
+ .body {
+   width:100%
+ }
  
     
 }
@@ -618,7 +620,9 @@ font-size: 1.2rem;
       margin-left: 13%;
     }
  
-  
+    .body {
+      width:100%
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
