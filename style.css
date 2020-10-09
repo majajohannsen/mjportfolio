@@ -459,8 +459,7 @@ footer img {
       display: none;
     }
     .logo2 {
-      display: block;
-      width: 10%;
+     display: none;
     }
 
     .container p {
@@ -502,7 +501,7 @@ footer img {
     }
     .billeder {
       display: block;
-      position: absolute;
+      position: relative;
     
     }
 
@@ -532,7 +531,7 @@ footer img {
     }
  .body {
    width:100%;
-   position: relative;
+   position: absolute;
  }
  
     
