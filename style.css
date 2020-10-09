@@ -528,7 +528,7 @@ footer img {
       margin-left: 10%;
     }
     .body {
-      height:30%;
+      display: none;
     }
  
     
@@ -621,7 +621,7 @@ font-size: 1.2rem;
     }
 
     .body {
-      height:30%;
+      display: none;
     }
  
   
