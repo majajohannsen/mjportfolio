@@ -57,7 +57,7 @@ margin: auto;
     font-size: 1.3rem;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
  
 
     }
@@ -92,226 +92,7 @@ margin: auto;
       color: #a37474; 
       font-size: 1.1rem;
     }
-  } 
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    nav a{
-      font-size: 1rem;
-      }
-      
-      .container .mitnavn {
-       
-        font-size: 1.1rem;
-      }
-      .logogif {
-        display: block;
-      }
   
-      .container p {
-        font-size: 0.7rem;
-      }
-      .text {
-        font-size: 0.7rem;
-        line-height: 1rem;
-      }
-      .title {
-        font-size:1.2rem
-      }
-      .overskrifterne {
-        font-size: 1.6rem;
-      }
-         /*servies */
-     ul.a {
-      font-size: 0.6rem;
-      line-height: 0.8rem;
-     }
-     .heading1
-     {
-      font-size: 0.8rem; 
-     }
-     .heading2
-     {
-      font-size: 0.8rem; 
-     }
-     .heading3
-     {
-      font-size: 0.8rem;  
-     }
-     .overskrift{
-      font-size: 1.6rem;
-      }
-  
-      .gifs {
-        width: 50%;
-      }
-  
-      .body {
-        width:50%;
-      }
-  }
-  
-  
-   /* Small devices (portrait tablets and large phones, 600px and up) */
-  
-   @media only screen and (min-width: 600px) {
-  
-    /* slideshow */
-  
-  nav a{
-  font-size: 1.2rem;
-  }
-  
-  .container .mitnavn {
-   
-    font-size: 1.6rem;
-  }
-  .container p {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  
-  }
-  .text {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-  .title {
-    font-size:1.8rem
-  }
-  
-    .logogif {
-      display: block;
-    }
-    .overskrifterne {
-      font-size: 2.2rem;
-    }
-     /*servies */
-     ul.a {
-      font-size: 0.8rem;
-      line-height: 1rem;
-     }
-     .heading1
-     {
-      font-size: 1rem; 
-     }
-     .heading2
-     {
-      font-size: 1rem; 
-     }
-     .heading3
-     {
-      font-size: 1rem; 
-     }
-     .overskrift{
-      font-size: 2.2rem;
-      }
-     
-  
-  }
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    nav a{
-      font-size: 1.6rem;
-      }
-      
-      .container .mitnavn {
-       
-        font-size: 2.1rem;
-      }
-      .container p {
-        font-size: 1.3rem;
-        line-height: 1.6rem;
-      }    
-  
-    .logogif {
-      display: block;
-    }
-    .text {
-      font-size: 1.1rem;
-      line-height: 2rem;
-    }
-    .title {
-      font-size:2rem;
-    }
-    .overskrifterne {
-      font-size: 2.5rem;
-    }
-  
-    /*servies */
-    ul.a {
-     font-size: 1rem;
-     line-height: 1.4rem;
-    }
-    .heading1
-    {
-     font-size: 1.6rem; 
-    }
-    .heading2
-    {
-     font-size: 1.6rem; 
-    }
-    .heading3
-    {
-     font-size: 1.6rem; 
-    }
-    .overskrift{
-    font-size: 2.5rem;
-    }
-  
-  }
-  
-  /* large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-  
-    nav a{
-      font-size: 2.3rem;
-      }
-      
-      .container .mitnavn {
-       
-        font-size: 3.1rem;
-      }
-      .container p {
-        font-size: 2rem;
-        line-height: 2.4rem;
-      
-      }   
-    .logogif {
-      display: block;
-    }
-  
-    .text {
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-    }
-    .title {
-      font-size:3rem
-    }
-  
-    .overskrifterne {
-      font-size: 3.3rem;
-    }
-      /*servies */
-      ul.a {
-        font-size: 1.5rem;
-        line-height: 2rem;
-       }
-       .heading1
-       {
-        font-size: 2rem; 
-       }
-       .heading2
-       {
-        font-size: 2rem; 
-       }
-       .heading3
-       {
-        font-size: 2rem; 
-       }
-       .overskrift {
-        font-size: 3.3rem;
-       }
-  
-  }
     .container p {
       font-size: 0.6rem;
       padding: 0.5rem;
@@ -392,15 +173,16 @@ margin: auto;
 .flexboks {
 
   position: relative;
-  padding-bottom: 25%;
-margin: 5%;
+  padding-bottom: 30%;
+margin: 3%;
   background-color: #c6a9a9;
 }
 
 .body1{
  position: absolute;
- padding-left: 45% ;
- padding-top: 5%
+ padding-left: 45%;
+ padding-top: 5%;
+
  
 }
 
@@ -431,18 +213,19 @@ padding-top: 3%;
 
 
 #cv {
+
   width: 25%;
-  margin: 3%;
-  
+  margin: 6%;
+
 }
 
 .mitcv {
-transition: transform .2s;
-}
-
-.mitcv a :hover {
-  transform: scale(1.2);
-}
+  transition: transform .2s;
+  }
+  
+  .mitcv a :hover {
+    transform: scale(1.2);
+  }
 
 .mitcv p {
 font-weight: lighter;
@@ -731,9 +514,8 @@ footer img {
     .dots {
       margin-left: 10%;
     }
-  
+    
 }
-
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
 
@@ -775,15 +557,15 @@ font-size: 1.2rem;
    }
    .heading1
    {
-    font-size: 1rem; 
+    font-size: 1.2rem; 
    }
    .heading2
    {
-    font-size: 1rem; 
+    font-size: 1.2rem; 
    }
    .heading3
    {
-    font-size: 1rem; 
+    font-size: 1.2rem; 
    }
    .overskrift{
     font-size: 2.2rem;
@@ -811,7 +593,7 @@ font-size: 1.2rem;
     .dots {
       margin-left: 13%;
     }
-  
+ 
   
 }
 /* Medium devices (landscape tablets, 768px and up) */
