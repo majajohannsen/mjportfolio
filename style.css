@@ -143,7 +143,11 @@ margin: auto;
     width: 30%;
     margin: auto;
     overflow: hidden;
-  
+  }
+  .billeder {
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
   }
 
   .body {
@@ -493,7 +497,10 @@ footer img {
     }
 
     .gifs {
-      width: 50%;
+      display: none;
+    }
+    .billeder {
+      display: block;
     }
 
     .body {
@@ -542,7 +549,12 @@ font-size: 1.2rem;
 .container p {
   font-size: 1rem;
   line-height: 1.4rem;
-
+}
+.gifs {
+  display: none;
+}
+.billeder {
+  display: block;
 }
 .text {
   font-size: 1rem;
@@ -640,6 +652,12 @@ font-size: 1.2rem;
   .overskrifterne {
     font-size: 2.5rem;
   }
+  .gifs {
+    display: block;
+  }
+  .billeder {
+    display: none;
+  }
 
   /*servies */
   ul.a {
@@ -701,8 +719,14 @@ font-size: 1.2rem;
     .container p {
       font-size: 2rem;
       line-height: 2.4rem;
+    }  
     
-    }   
+    .gifs {
+      display: block;
+    }
+    .billeder {
+      display: none;
+    }
   .logogif {
     display: block;
   }
