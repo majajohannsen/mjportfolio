@@ -459,7 +459,7 @@ footer img {
       display: none;
     }
     .logo2 {
-      display: none;
+      display: block;
     }
 
     .container p {
