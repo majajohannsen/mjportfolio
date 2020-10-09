@@ -527,9 +527,7 @@ footer img {
     .dots {
       margin-left: 10%;
     }
-    .body {
-      display: none;
-    }
+ 
  
     
 }
@@ -618,10 +616,6 @@ font-size: 1.2rem;
 
     .dots {
       margin-left: 13%;
-    }
-
-    .body {
-      display: none;
     }
  
   
