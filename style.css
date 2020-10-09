@@ -501,7 +501,9 @@ footer img {
       display: none;
     }
     .billeder {
-      display: none;
+      display: block;
+      position: absolute;
+    
     }
 
   
@@ -529,7 +531,8 @@ footer img {
       margin-left: 10%;
     }
  .body {
-   width:100%
+   width:100%;
+   position: relative;
  }
  
     
