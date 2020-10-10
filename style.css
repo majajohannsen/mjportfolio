@@ -449,6 +449,7 @@ footer img {
 @media only screen and (max-width: 600px) {
   nav a{
     font-size: 1rem;
+
     }
     
     .container .mitnavn {
@@ -459,7 +460,10 @@ footer img {
       display: none;
     }
     .logo2 {
-     display: none;
+     display: block;
+     margin: 3%;
+     width:8%;
+
     }
 
     .container p {
@@ -500,7 +504,7 @@ footer img {
       display: none;
     }
     .mobil {
-      width:45%;
+      width:50%;
       display: block;
       float: right;
     
@@ -561,7 +565,7 @@ font-size: 1.2rem;
 }
 .mobil {
   display: block;
-  width: 45%;
+  width: 50%;
 }
 .text {
   font-size: 1rem;
