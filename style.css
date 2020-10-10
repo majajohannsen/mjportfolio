@@ -499,7 +499,8 @@ footer img {
     .gifs {
       display: none;
     }
-    .billeder {
+    .mobil {
+      width:30%;
       display: block;
       float: right;
     
