@@ -67,11 +67,6 @@ margin: auto;
     display: block;
     }
 
-    .logo2 {
-      width: 17%;
-      height: 17%;
-    }
-
      /* Hero picture sektion */
     
         /* heropic */
@@ -461,11 +456,6 @@ footer img {
     .logogif {
       display: block;
     }
-    .logo2 {
-     display: none;
-
-    }
-
     .container p {
       font-size: 0.7rem;
     }
@@ -578,9 +568,7 @@ font-size: 1.2rem;
   .logogif {
     display: block;
   }
-  .logo2 {
-    display: none;
-  }
+  
 
   .overskrifterne {
     font-size: 2.2rem;
@@ -652,9 +640,6 @@ font-size: 1.2rem;
     display: block;
   }
 
-  .logo2 {
-    display: none;
-  }
   .text {
     font-size: 1.1rem;
     line-height: 2rem;
@@ -742,9 +727,6 @@ font-size: 1.2rem;
     }
   .logogif {
     display: block;
-  }
-  .logo2 {
-    display: none;
   }
 
   .text {
