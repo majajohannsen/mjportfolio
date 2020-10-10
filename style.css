@@ -63,11 +63,13 @@ margin: auto;
     }
     .logogif {
     width: 12%;
+    height:12%;
     display: block;
     }
 
     .logo2 {
       width: 17%;
+      height: 17%;
     }
 
      /* Hero picture sektion */
@@ -461,8 +463,6 @@ footer img {
     }
     .logo2 {
      display: block;
-     margin: 3%;
-     width:8%;
 
     }
 
