@@ -450,8 +450,8 @@ footer img {
     }
     
     .container .mitnavn {
-     
       font-size: 1rem;
+      left: 58%;
     }
     .logogif {
       display: block;
@@ -543,8 +543,8 @@ font-size: 1.2rem;
 }
 
 .container .mitnavn {
- 
   font-size: 1.6rem;
+  left: 58%;
 }
 .container p {
   font-size: 1rem;
