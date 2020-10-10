@@ -500,7 +500,7 @@ footer img {
       display: none;
     }
     .mobil {
-      width:30%;
+      width:45%;
       display: block;
       float: right;
     
@@ -559,8 +559,9 @@ font-size: 1.2rem;
 .gifs {
   display: none;
 }
-.billeder {
+.mobil {
   display: block;
+  width: 45%;
 }
 .text {
   font-size: 1rem;
@@ -663,7 +664,7 @@ font-size: 1.2rem;
   .gifs {
     display: block;
   }
-  .billeder {
+  .mobil {
     display: none;
   }
 
@@ -732,7 +733,7 @@ font-size: 1.2rem;
     .gifs {
       display: block;
     }
-    .billeder {
+    .mobil {
       display: none;
     }
   .logogif {
